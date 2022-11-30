@@ -1,4 +1,5 @@
 import "./Styles.css";
+//context
 import { useTheme } from '../../../context/ThemeContext';
 
 const Switch = () => {
