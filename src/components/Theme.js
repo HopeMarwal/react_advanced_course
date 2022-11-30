@@ -5,6 +5,7 @@ import Header from './theme/Header';
 import Page from "./theme/Page";
 
 export default function Theme() {
+  //context state
   const { theme } = useTheme();
   return (
     <div
