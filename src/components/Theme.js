@@ -1,3 +1,4 @@
+//context
 import { useTheme } from "../context/ThemeContext";
 //components
 import Header from './theme/Header';
