@@ -1,3 +1,4 @@
+//context
 import { useTheme } from "../../context/ThemeContext";
 
 export default function Title({ children }) {
