@@ -7,9 +7,7 @@ export default function FetchingData() {
     fetch("https://randomuser.me/api/?results=1")
       .then((res) => res.json())
       .then((data) => {
-        console.log(data)
         setUser(data)
-
       })
   };
 
