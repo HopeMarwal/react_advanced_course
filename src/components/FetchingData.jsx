@@ -12,6 +12,7 @@ export default function FetchingData() {
       })
   };
 
+  //UseEffect 
   useEffect(() => {
     fetchData()
   }, []);
