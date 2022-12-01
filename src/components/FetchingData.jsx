@@ -3,6 +3,7 @@ import {useState, useEffect} from 'react'
 export default function FetchingData() {
   const [user, setUser] = useState([]);
 
+  //Fetchig data 
   const fetchData = () => {
     fetch("https://randomuser.me/api/?results=1")
       .then((res) => res.json())
