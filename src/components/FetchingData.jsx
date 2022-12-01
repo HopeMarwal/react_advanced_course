@@ -17,6 +17,7 @@ export default function FetchingData() {
     fetchData()
   }, []);
 
+  //Conditional return
   return Object.keys(user).length > 0 ? (
     <div>
       <h1>Customer data</h1>
