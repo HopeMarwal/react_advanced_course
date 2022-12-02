@@ -18,7 +18,7 @@ export default function Test() {
   }
   return (
     <div style={{padding: "40px"}}>
-      <h1>
+      <h1> 
         Today is: {day}<br />
         {
           prevDay && (
