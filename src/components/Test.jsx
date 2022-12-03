@@ -27,7 +27,7 @@ export default function Test() {
         }
       </h1>
       <button onClick={getNextDay}>
-        Get next da
+        Get next day
       </button>
     </div>
   );
