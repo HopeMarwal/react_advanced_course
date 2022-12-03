@@ -17,7 +17,7 @@ export default function Test() {
     }
   }
   return (
-    <div style={{padding: "40px"}}> 
+    <div style={{padding: "40px"}}>
       <h1> 
         Today is: {day}<br />
         {
@@ -27,7 +27,7 @@ export default function Test() {
         }
       </h1>
       <button onClick={getNextDay}>
-        Get next day
+        Get next da
       </button>
     </div>
   );
