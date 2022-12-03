@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 export default function Test() {
   const [day, setDay] = useState("Monday");
-  const prevDay = usePrevious(day); 
+  const prevDay = usePrevious(day);
 
   const getNextDay = () => {
     if (day === "Monday") {
