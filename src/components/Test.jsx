@@ -12,7 +12,7 @@ export default function Test() {
       setDay("Thursday")
     } else if (day === "Thursday") {
       setDay("Friday")
-    } else if (day === "Frday") {
+    } else if (day === "Friday") {
       setDay("Monday")
     }
   }
