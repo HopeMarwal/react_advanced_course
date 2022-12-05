@@ -17,7 +17,7 @@ export default function Test() {
     }
   }
   return (
-    <div style={{padding:"40px"}}>
+    <div style={{padding: "40px"}}>
       <h1> 
         Today is: {day}<br />
         {
