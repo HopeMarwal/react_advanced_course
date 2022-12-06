@@ -6,7 +6,7 @@ import "./App.css";
 // import ManageState from "./components/ManageState";
 //import FetchingData from "./components/FetchingData";
 //import Test from "./components/Test";
-import {RadioGroup, RadioOption} from "./components/Radio/RadioGroup";
+import {RadioGroup, RadioOption} from "./components/Radio";
 
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
       </RadioGroup>
 
       <button disabled={!selected}>Submit</button>
-      
+
     </div>
   );
 }
