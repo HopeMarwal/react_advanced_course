@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {RadioGroup, RadioOption} from "/Radio";
 
 export default function Radio() {
+  const [selected, setSelected] = useState("");
   return (
     <div className="Radio">
       <h2>How did you hear about Little Lemon?</h2>

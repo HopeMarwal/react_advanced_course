@@ -1,13 +1,18 @@
 import React from 'react'
+import withCounter from './withCounter';
 
-export default function ClickIncrease() {
-  const [fontSize, setFontSize] = useState(10); 
+function ClickIncrease(props) {
+
+  const { counter, increment } = props
+
   return (
     <div>
-      <button onClick={() => setFontSize((size) => size + 1)}>
+      <button onClick={() => increment()}>
         Increase with click
       </button>
-      <p style={{ fontSize }}>Size of font in onClick function: {fontSize}</p>
+      <p>Value of counter: {counter}</p>
     </div>
   );
 }
+
+export default withCounter(ClickIncrease, 2)

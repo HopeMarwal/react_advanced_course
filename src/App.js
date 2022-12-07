@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React from "react";
 import "./App.css";
 //Components
 // import Form from "./components/Form";
@@ -7,15 +7,16 @@ import "./App.css";
 //import FetchingData from "./components/FetchingData";
 //import Test from "./components/Test";
 //import Radio from "./components/Radio/Radio";
+import ClickIncrease from "./components/hoc/ClickIncrease";
+import HoverIncrase from "./components/hoc/HoverIncrase";
 
 
 function App() {
 
-  const [selected, setSelected] = useState("");
-
   return (
     <div className="App">
-      
+      <ClickIncrease />
+      <HoverIncrase />
     </div>
 
   );

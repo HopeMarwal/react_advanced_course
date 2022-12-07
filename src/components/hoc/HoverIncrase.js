@@ -1,13 +1,17 @@
 import React from 'react'
+import withCounter from './withCounter';
 
-export default function HoverIncrase() {
-  const [fontSize, setFontSize] = useState(10); 
+function HoverIncrase(props) {
+  const { counter, increment } = props
+  
   return (
     <div>
-      <button onClick={() => setFontSize((size) => size + 1)}>
-        Increase with click
+      <button onMouseOver={() => increment()}>
+        Increase on hover
       </button>
-      <p style={{ fontSize }}>Size of font in onClick function: {fontSize}</p>
+      <p>Value of counter: {counter}</p>
     </div>
   );
 }
+
+export default withCounter(HoverIncrase, 5)
