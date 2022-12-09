@@ -7,16 +7,14 @@ import "./App.css";
 //import FetchingData from "./components/FetchingData";
 //import Test from "./components/Test";
 //import Radio from "./components/Radio/Radio";
-import ClickIncrease from "./components/hoc/ClickIncrease";
-import HoverIncrase from "./components/hoc/HoverIncrase";
+//import ClickWrapper from "./components/hoc/click/ClickWrapper";
 
 
 function App() {
 
   return (
     <div className="App">
-      <ClickIncrease />
-      <HoverIncrase />
+      
     </div>
 
   );
