@@ -8,13 +8,14 @@ import "./App.css";
 //import Test from "./components/Test";
 //import Radio from "./components/Radio/Radio";
 //import ClickWrapper from "./components/hoc/click/ClickWrapper";
+import MouseWrapper from "./components/hoc/mousePosition/MouseWrapper";
 
 
 function App() {
 
   return (
     <div className="App">
-      
+      <MouseWrapper />
     </div>
 
   );
