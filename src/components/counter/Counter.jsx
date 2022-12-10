@@ -6,6 +6,7 @@ export default function Counter({initialCount}) {
   return (
     <div>
       <h1 data-testid='count'>{count}</h1>
+      {/* Button on click by 1 */}
       <button onClick={() => {setCount((prev) => prev +1)}}>Increment by 1</button>
     </div>
   )
