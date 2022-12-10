@@ -9,14 +9,15 @@ import "./App.css";
 //import Radio from "./components/Radio/Radio";
 //import ClickWrapper from "./components/hoc/click/ClickWrapper";
 //import MouseWrapper from "./components/hoc/mousePosition/MouseWrapper";
-import RenderWrapper from "./components/renderProp/RenderWrapper";
+//import RenderWrapper from "./components/renderProp/RenderWrapper";
+import Counter from "./components/counter/Counter";
 
 
 function App() {
 
   return (
     <div className="App">
-      <RenderWrapper />
+      <Counter initialCount={3} />
     </div>
 
   );
